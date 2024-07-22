@@ -1,0 +1,13 @@
+﻿@MinimalAPI_HostAddress = https://localhost:44383
+
+Get {{MinimalAPI_HostAddress}}/todoitems
+Accept: application/json
+###
+
+Get {{MinimalAPI_HostAddress}}/todoitems/{id}
+Accept: application/json
+###
+
+Get {{MinimalAPI_HostAddress}}/
+Accept: application/json
+###
